@@ -1,0 +1,110 @@
+@charset "UTF-8";
+h1 {
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-family: "Courgette", Cursive;
+  font-size: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  z-index: 10;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  margin: 15px;
+  color: whitesmoke;
+}
+
+div {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkred;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkred;
+  text-align: center;
+  padding: 5px;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at center, #9ed4a1 0%, green 100%);
+  overflow: hidden;
+}
+
+
+button {
+  display: inline-block;
+  padding: 0;
+  margin-top: 20px;
+  width: 100px;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+}
+button:hover {
+  background-color: darkred;
+}
+
+label {
+  display: block; /* Exibe cada label em uma nova linha */
+  margin: 10px 0;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#controls button {
+  margin-top: 20px;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
